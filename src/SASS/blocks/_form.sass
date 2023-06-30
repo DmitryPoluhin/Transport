@@ -1,0 +1,74 @@
+.form
+    max-width: 40rem
+    background-color: $blue-color
+    overflow: hidden
+    border-radius: 0.5rem
+    position: relative
+    bottom: -3rem
+
+    &-header
+        padding: 1.9rem 3rem 2.1rem 3rem
+        background-color: $dark-blue-color
+        &__title
+            color: $text-color
+            font-family: $font-accent
+            font-weight: 900
+            font-size: 3rem
+            line-height: 3.6rem
+            margin-bottom: 0.8rem
+        &__subtitle
+            font-size: 1.5rem
+            line-height: 1.9rem
+            color: $text-color
+    &-main
+        padding: 2.5rem 3rem 3rem 3rem
+        &__input
+            display: block
+            width: 100%
+            padding: 0 0 1rem 4rem
+            background-color: transparent
+            border: none
+            outline: none
+            border-bottom: 0.1rem solid rgba(255, 255, 255, .25)
+            color: $text-color
+            margin-bottom: 3rem
+            font-size: 1.6rem
+            line-height: 2.1rem
+            transition: .2s linear
+            &:last-child
+                margin-bottom: 3.4rem
+            &::placeholder
+                color: $text-color
+            &:focus
+                border-bottom-color: $text-color
+            &--name
+                background-image: url(../icons/intro/name.svg)
+                background-repeat: no-repeat
+                background-position: left 1rem top 0.2rem
+            &--phone
+                background-image: url(../icons/intro/phone.svg)
+                background-repeat: no-repeat
+                background-position: left 1rem top 0.2rem
+            &--mail
+                background-image: url(../icons/intro/mail.svg)
+                background-repeat: no-repeat
+                background-position: left 1rem top 0.6rem
+    &-button  
+        width: 100%
+        padding: 1.1rem 12rem         
+
+
+.form-main__input--dark
+    border-bottom-color: #E8E8E8
+    color: $black-color
+    &::placeholder
+        color: $black-color
+    &:focus
+        border-bottom-color: #000
+    &-name
+        background-image: url(../icons/modal/name.png)
+    &-phone
+        background-image: url(../icons/modal/call.png)
+    &-mail
+        background-image: url(../icons/modal/mail.png)
+        

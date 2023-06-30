@@ -1,0 +1,79 @@
+.clients
+    padding: 6rem 0
+    &-title
+        font-family: $font-accent
+        font-weight: 900
+        font-size: 4.5rem
+        line-height: 5.4rem
+        color: $black-color
+        margin-bottom: 5.6rem
+        &-span
+            color: $blue-color
+    &-wripper
+        display: flex
+        justify-content: space-between
+        &__logos
+            flex-basis: 60%
+            display: flex
+            flex-wrap: wrap
+            gap: 6rem
+            background-image: url(../icons/clients/map.png)
+            background-repeat: no-repeat
+            background-size: cover
+            background-position:  center
+            margin-bottom: 13.7rem
+        &__reviews 
+            flex-basis: 40%
+            &-header  
+                display: flex 
+                align-items: center
+                margin-bottom: 3rem
+                &-img
+                    width: 11rem
+                    height: 12rem
+                    margin-right: 2.1rem
+                &-box
+                &-name
+                    font-family: $font-accent
+                    font-weight: 900
+                    font-size: 1.8rem
+                    line-height: 2.2rem
+                    color: $black-color
+                &-job
+                    font-family: $font-accent
+                    font-size: 1.5rem
+                    line-height: 1.8rem
+                    color: $black-color
+            &-footer
+                &-paragraph
+                    font-family: $font-accent
+                    font-size: 1.5rem
+                    line-height: 2.7rem
+                    color: $grey-color
+                    text-indent: 20px       
+    &-footer 
+        display: flex
+        align-items: center
+        &__text
+            font-size: 1.8rem
+            line-height: 2.3rem
+            color: #464646
+            position: relative
+            z-index: 2
+            &::before
+                content: ''
+                display: block
+                width: 4.8rem
+                height: 4.6rem
+                background: url(../icons/clients/heart.png)
+                position: absolute
+                left: 2rem
+                top: -0.7rem
+                z-index: 1
+    &-button  
+        padding: 1.1rem 4.5rem
+        margin-right: 4rem 
+            
+        
+        
+
